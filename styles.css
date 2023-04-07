@@ -94,6 +94,11 @@ img {
     object-fit: cover;
     padding-bottom: 15px;
     border-radius: 15px;
+    transition: transform .05s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 #recipe-one {
