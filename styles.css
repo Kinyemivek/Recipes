@@ -32,6 +32,15 @@ ul {
     margin-top: 2rem;
 }
 
+nav > ul > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > a:hover {
+    color: orangered;
+}
+
 .logo {
     margin-right: auto;
     color: lightseagreen;
@@ -87,7 +96,7 @@ img {
     border-radius: 15px;
 }
 
-#recipe-one, #recipe-three {
+#recipe-one {
     background-color: #E5FFFD;
     padding: 2rem 1.5rem;
 }
@@ -97,7 +106,19 @@ img {
     padding: 2rem 1.5rem;
 }
 
+#recipe-three {
+    background-color: #E0F5FF;
+    padding: 2rem 1.5rem;
+}
+
 #recipe-img {
     width: 100%;
-    height: 78%;
+    height: 80%;
+}
+
+footer {
+    background-color: #FFEBE5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
