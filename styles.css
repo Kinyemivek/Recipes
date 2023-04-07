@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+h1, h2, .logo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.125rem;
+}
+
+nav {
+   display: flex; 
+   gap: 60px;
+   background-color: #E5FFFD;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    margin-right: auto;
+    color: lightseagreen;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+span {
+    color: orangered;
+}
+
+.hero-container {
+    margin-top: 8rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 120%;
+    color: orangered;
+}
+
+.paragraph-one {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+.recipe-container {
+    max-width: 30%;
+    gap: 25px;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+#recipe-one, #recipe-three {
+    background-color: #E5FFFD;
+    padding: 2rem 1.5rem;
+}
+
+#recipe-two {
+    background-color: #FFEBE5;
+    padding: 2rem 1.5rem;
+}
+
+#recipe-img {
+    width: 100%;
+    height: 78%;
+}
