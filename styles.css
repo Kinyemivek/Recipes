@@ -127,3 +127,18 @@ footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+/*styles for mint-chicken page*/
+
+.inner-container {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.chicken-img {
+    max-width: 100%;
+    height: 20em;
+}
