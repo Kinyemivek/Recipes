@@ -9,12 +9,14 @@ html, body, div, img {
     font-size: 100%;
 }
 
-h1, h2, .logo {
+h1, h2, h3, .logo {
     font-family: Arial, Helvetica, sans-serif;
 }
 p, ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 180%;
 }
 
 nav {
@@ -74,6 +76,12 @@ span {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 160%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 130%;
 }
 
 .img-container {
@@ -147,7 +155,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E0F5FF;
+    background-color: #FFEBE5;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 3rem;
@@ -167,7 +175,7 @@ footer {
     text-align: center;
 }
 
-.ingredients {
+.ingredients, .directions {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,3 +201,33 @@ footer {
     max-width: 75%;
     flex-wrap: wrap;
 }
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #E0F5FF;
+}
+
+.directions > h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 1rem;
+}
+
+.direction-container {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    gap: 40px;
+}
+
+.item1 {
+    flex-shrink: 0;
+}
+
+
