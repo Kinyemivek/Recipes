@@ -132,7 +132,7 @@ footer {
 
 .inner-container {
     display: flex;
-    gap: 150px;
+    gap: 100px;
     align-items: center;
     justify-content: center;
     margin: 5rem;
@@ -141,4 +141,55 @@ footer {
 .chicken-img {
     max-width: 100%;
     height: 20em;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0F5FF;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.description > h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 0.5rem;
+}
+
+.description > p {
+    max-width: 50%;
+    line-height: 180%;
+    text-align: center;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.ingredients > h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 0.5rem;
+}
+
+#ingredient-lists {
+    display: flex;
+    gap: 60px;
+    list-style-type: square;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 75%;
+    flex-wrap: wrap;
 }
