@@ -134,6 +134,7 @@ footer {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    max-width: 100%;
 }
 
 /*styles for mint-chicken page*/
@@ -192,13 +193,13 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-#ingredient-lists {
+.ingredient-lists {
     display: flex;
     gap: 60px;
     list-style-type: square;
     justify-content: center;
     align-items: baseline;
-    max-width: 75%;
+    max-width: 85%;
     flex-wrap: wrap;
 }
 
