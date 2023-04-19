@@ -1,2 +1,2 @@
 # Recipes
-A basic html recipe page to remind myself how to create a simple page on the web.
+A basic recipe website to remind myself how to create and style a website mainly with Flexbox.
